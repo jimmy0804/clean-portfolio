@@ -1,7 +1,12 @@
 <template>
   <div class="home">
-    <h1>Hello, I'm Jimmy Yeung</h1>
-    <h2>iOS Software Engineer with {{ experienceYear }} years of experience in </h2>
+    <section class="section">
+      <h1 class="title is-1">Hello, I'm Jimmy Yeung</h1>
+      <h2 class="subtitle is-3">iOS Software Engineer with {{ experienceYear }} years of experience in </h2>
+    </section>
+
+    <section class="section">
+    </section>
   </div>
 </template>
 
@@ -25,9 +30,6 @@ export default {
       experienceYear,
       calculateExperienceYearsFrom
     }
-  },
-  components: {
-    
   },
 }
 </script>
